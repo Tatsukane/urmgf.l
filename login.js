@@ -6,7 +6,7 @@ signInButton.addEventListener("click", () => {
 	const password = document.getElementById("password").value;
 
 	if (username === "tphuong._.24" && password === "02042006") {
-		window.location.href = ".\\About Us\\aboutUs.html";
+		window.location.href = "aboutUs.html";
 	}
 	else {
 		alert.classList.add("alert");
